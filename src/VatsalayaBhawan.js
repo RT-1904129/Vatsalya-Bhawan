@@ -1,6 +1,6 @@
 import React from "react";
 
-const MainPage = () => {
+const VatsalayaBhawan = () => {
     return (
         <div>
 
