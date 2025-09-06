@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
-export default function Header() {
+const  Header = () => {
   const [open, setOpen] = useState(false);
 
   const navLinks = [
@@ -74,3 +74,7 @@ export default function Header() {
     </header>
   );
 }
+
+export default Header;
+
+
