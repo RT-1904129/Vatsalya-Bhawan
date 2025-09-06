@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import VatsalayaBhawan from './VatsalayaBhawan';
+import VatsalyaBhawan from './VatsalyaBhawan';
 
 function App() {
   return (
       <div>
-        <VatsalayaBhawan />
+        <VatsalyaBhawan />
       </div>
   );
 }
