@@ -15,7 +15,7 @@ const Dining = () => {
         </div>
         <div className="order-1 md:order-2">
           <img 
-            src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?q=80&w=1974&auto=format&fit=crop" 
+            src="/assets/dining.jpg" 
             alt="Dining at Vatsalya Bhawan"
             className="rounded-lg shadow-xl w-full h-auto"
           />

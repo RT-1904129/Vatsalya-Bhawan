@@ -4,19 +4,19 @@ const roomsData = [
   {
     name: 'Deluxe Room',
     description: 'A perfect blend of comfort and elegance, ideal for solo travelers or couples.',
-    imageUrl: 'https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?q=80&w=2070&auto=format&fit=crop',
+    imageUrl: '/assets/room-image-2.jpeg',
     features: ['King Size Bed', 'Free Wi-Fi', 'Air Conditioning', 'City View'],
   },
   {
     name: 'Family Suite',
     description: 'Spacious and well-appointed, our family suites offer ample space for relaxation.',
-    imageUrl: 'https://images.unsplash.com/photo-1566195992011-5f6b21e539aa?q=80&w=1974&auto=format&fit=crop',
+    imageUrl: '/assets/room-image-5.jpeg',
     features: ['Two Queen Beds', 'Living Area', 'Free Wi-Fi', 'Garden View'],
   },
   {
     name: 'Presidential Suite',
     description: 'Experience the pinnacle of luxury with our exclusive Presidential Suite.',
-    imageUrl: 'https://images.unsplash.com/photo-1560185893-a55cbc8c57e8?q=80&w=1974&auto=format&fit=crop',
+    imageUrl: '/assets/room-image-8.jpeg',
     features: ['Master Bedroom', 'Private Balcony', 'Jacuzzi', '24/7 Butler Service'],
   },
 ];

@@ -5,7 +5,7 @@ const Hero = () => {
     <section id="home" className="relative bg-gray-800 text-white">
       <div className="absolute inset-0">
         <img
-          src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?q=80&w=2070&auto=format&fit=crop"
+          src="/assets/common-room-1.jpeg"
           alt="Vatsalya Bhawan hotel room"
           className="w-full h-full object-cover opacity-50"
         />

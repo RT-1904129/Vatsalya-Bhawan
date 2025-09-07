@@ -1,12 +1,17 @@
 import React from 'react';
 
 const images = [
-  'https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?q=80&w=2070&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=2070&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=1780&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1631049307264-da0ec9d70304?q=80&w=1780&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=2070&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1445019980597-93e8722462f6?q=80&w=1974&auto=format&fit=crop',
+  '/assets/common-room-1.jpeg',
+  '/assets/room-image-2.jpeg',
+  '/assets/room-image-5.jpeg',
+  '/assets/god-image.jpeg',
+  '/assets/room-image-8.jpeg',
+  '/assets/room-image-9.jpeg',
+  '/assets/washroom-image-1.jpeg',
+  '/assets/washroom-image-2.jpeg',
+  '/assets/maingate.jpg',
+  '/assets/image-1.jpg',
+  '/assets/amunitites.jpg'
 ];
 
 const Gallery = () => {
