@@ -33,7 +33,7 @@ const  Header = () => {
             </a>
           ))}
           <a
-            href="#book"
+            href="#contact"
             className="bg-amber-600 text-white px-4 py-2 rounded-lg shadow-md hover:bg-amber-700 transition"
           >
             Book Now
@@ -63,7 +63,7 @@ const  Header = () => {
             </a>
           ))}
           <a
-            href="#book"
+            href="#contact"
             className="block bg-amber-600 text-white px-4 py-2 rounded-lg text-center shadow-md hover:bg-amber-700 transition"
             onClick={() => setOpen(false)}
           >
@@ -76,5 +76,3 @@ const  Header = () => {
 }
 
 export default Header;
-
-
