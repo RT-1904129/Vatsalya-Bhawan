@@ -1,9 +1,23 @@
 // components/Header.jsx
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 
 const  Header = () => {
   const [open, setOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  // useEffect runs after the component mounts
+  useEffect(() => {
+    const handleScroll = () => {
+      // If scrolled down more than 10px, set state to true
+      setIsScrolled(window.scrollY > 10);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    // Cleanup function: runs when component unmounts
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []); // Empty dependency array [] means this runs only once on mount
 
   const navLinks = [
     { name: "Home", href: "#home" },
@@ -14,7 +28,9 @@ const  Header = () => {
   ];
 
   return (
-    <header className="sticky top-0 z-50 bg-white shadow-md">
+    <header 
+      className={`sticky top-0 z-50 bg-white transition-shadow duration-300 ${isScrolled ? "shadow-md" : "shadow-none"}`}
+    >
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
         {/* Logo */}
         <h1 className="text-2xl md:text-3xl font-bold text-amber-700 tracking-wide">
@@ -43,7 +59,7 @@ const  Header = () => {
         {/* Mobile Menu Button */}
         <button
           className="md:hidden text-gray-800"
-          onClick={() => setOpen(!open)}
+          onClick={() => setOpen((prev) => !prev)}
         >
           {open ? <X size={28} /> : <Menu size={28} />}
         </button>
